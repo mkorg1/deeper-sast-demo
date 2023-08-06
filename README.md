@@ -50,7 +50,7 @@ This PR adds a feature to migrate users from the existing H2 database to MySQL. 
 
 This PR adds a new feature to import users from an XML file. Although the code itself does not seem to contain any vulnerabilities, the `decode` library function is vulnerable to deserialization if the passed argument is user-controllable. Thus this PR introduces a critical vulnerability due to the usage of the unsafe library function.
 
-You can view the security issues of this demo in the public ([SonarCloud project](https://sonarcloud.io/project/overview?id=SonarSourceResearch_deeper-sast-demo))
+You can view the security issues of this demo in the public [SonarCloud project](https://sonarcloud.io/project/overview?id=SonarSourceResearch_deeper-sast-demo)
 
 ## Setup instructions
 
