@@ -10,7 +10,7 @@ The demo is a fictive Spring application implementing different functionalities 
 2. passes through a library, or
 3. ends in a dangerous sink within a library.
 
-Thus these issues are only detected because of the deeper SAST feature of the Sonar engine.
+Thus these security issues are only detected because of the deeper SAST feature of the Sonar engine.
 
 There are four issues: two of these are already committed to the main branch of the application. Additionally, there are two pending pull requests (PR), which each introduce another vulnerability. For these issues, the chosen examples aim to demonstrate that the proposed source code in the PR does not look dangerous or security-sensitive and would likely be merged.
 
